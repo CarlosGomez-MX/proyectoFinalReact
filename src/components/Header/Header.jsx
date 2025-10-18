@@ -24,7 +24,7 @@ export default function Header(){
               height="28"
               decoding="async"
             />
-            <span className={styles.brandText}>proyectoReact</span>
+            <span className={styles.brandText}>Tareas de Patrixio</span>
           </Link>
 
           <span
