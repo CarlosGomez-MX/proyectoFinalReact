@@ -1,0 +1,17 @@
+.wrapper {
+  /* estado base */
+  opacity: 0;
+  transform: translateY(4px);
+}
+
+.enter {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .wrapper {
+    /* antes: .18s */
+    transition: opacity .45s ease-out, transform .45s ease-out;
+  }
+}

@@ -1,0 +1,5 @@
+.list{display:grid;gap:.5rem}.empty{padding:1rem;border:1px dashed var(--color-border);background:#fff;border-radius:.5rem;color:var(--color-text-muted)}
+@media (prefers-reduced-motion: no-preference) {
+  .list { animation: fadeIn .45s ease-out; }
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+}

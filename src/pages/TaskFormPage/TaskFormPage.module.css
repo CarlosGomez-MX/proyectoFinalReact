@@ -1,0 +1,23 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.form {
+  display: grid;
+  gap: .75rem;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75rem;
+}
+.actions {
+  display: flex;
+  gap: .5rem;
+  margin-top: .5rem;
+}
+
+@media (max-width: 640px) {
+  .grid2 { grid-template-columns: 1fr; }
+}
